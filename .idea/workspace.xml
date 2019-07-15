@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="954f2d3d-bcdd-46ce-a225-c291de31dcd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/src/main/resources/static/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/src/main/resources/static/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/src/main/resources/static/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/RetrievePaymentCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/src/main/kotlin/com/freesoft/retail/checkout/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/src/main/kotlin/com/freesoft/retail/checkout/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/src/main/kotlin/com/freesoft/retail/checkout/model/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/src/main/kotlin/com/freesoft/retail/checkout/model/Order.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/target/classes/com/freesoft/retail/checkout/infrastructure/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/target/classes/com/freesoft/retail/checkout/infrastructure/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/target/classes/com/freesoft/retail/checkout/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/target/classes/com/freesoft/retail/checkout/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/application/InventoryService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/application/InventoryService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/domain/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/domain/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/domain/PickOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/domain/PickOrder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/EventReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/EventReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/FetchGoodsCommandPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/FetchGoodsCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/GoodsFetchedPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/kotlin/com/freesoft/retail/inventory/infrastructure/GoodsFetchedPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/domain/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/domain/Order.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/EventListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/EventListener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/payment/RetrievePaymentCommandPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/payment/RetrievePaymentCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsCommandPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/src/main/resources/retail.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/src/main/resources/retail.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-camunda/target/classes/retail.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/order-camunda/target/classes/retail.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/PaymentApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/PaymentCamundaApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/EventReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/EventReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/infrastructure/ReceivePaymentCommandPayload.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/process/PaymentReceivedHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/process/PaymentReceivedHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/process/PaymentReceivedPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/process/PaymentReceivedPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-camunda/src/main/resources/payment.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/payment-camunda/src/main/resources/payment.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/EventReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/EventReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/RetrievePaymentCommandPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/RetrievePaymentCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/payment/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/EventReceiver$receivePaymentCommand$event$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/EventReceiver$receivePaymentCommand$event$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/EventReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/EventReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/target/classes/com/freesoft/retail/payment/infrastructure/ReceivePaymentCommandPayload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/application/ShippingService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/application/ShippingService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/EventReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/EventReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/PaymentReceivedPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/GoodsShippedEventPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/RetrievePaymentCommandPayload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/kotlin/com/freesoft/retail/shipping/infrastructure/ShipGoodsCommandPayload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/application/ShippingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/application/ShippingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/infrastructure/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/infrastructure/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/infrastructure/EventReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/target/classes/com/freesoft/retail/shipping/infrastructure/EventReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-camunda/src/main/kotlin/com/freesoft/retail/payment/PaymentApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/kotlin/com/freesoft/retail/payment/infrastructure/ReceivePaymentCommandPayload.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/domain/OrderFactory.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -87,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/order/OrderDeliveredHandler.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#49#319#0" expanded="true" />
               </folding>
@@ -99,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/order/OrderDeliveredPayload.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -107,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/EventListener.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#50#723#0" expanded="true" />
               </folding>
@@ -120,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsHandler.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#52#449#0" expanded="true" />
               </folding>
@@ -513,20 +463,6 @@
               <item name="order-camunda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoretailflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoretailflow" type="462c0819:PsiDirectoryNode" />
-              <item name="order-camunda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -812,6 +748,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\demoretailflow\order-camunda\src\main\resources" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.freesoft.retail.shipping" />
       <recent name="com.freesoft.retail.payment.process" />
@@ -821,9 +760,6 @@
       <recent name="E:\workspace\demoretailflow\checkout\src\main\resources\static" />
       <recent name="E:\workspace\demoretailflow\order-camunda\src\main\kotlin\com\freesoft\retail\order\process" />
       <recent name="E:\workspace\demoretailflow\order-camunda\src\main\kotlin\com\freesoft\retail\order\infrastructure" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\demoretailflow\order-camunda\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -971,7 +907,6 @@
         <item itemvalue="Spring Boot.InventoryApplication" />
         <item itemvalue="Spring Boot.ShippingApplication" />
         <item itemvalue="Spring Boot.PaymentCamundaApplication" />
-        <item itemvalue="Spring Boot.PaymentApplication (1)" />
         <item itemvalue="JUnit.ShippingTest.contextLoad (1)" />
       </list>
     </recent_temporary>
@@ -1014,29 +949,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64689000" />
+    <option name="totallyTimeSpent" value="64690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19893616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
@@ -1044,16 +969,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32978722" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3297414" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32978722" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1377,7 +1311,7 @@
     <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/shipment/ShipGoodsHandler.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#52#449#0" expanded="true" />
           </folding>
@@ -1457,21 +1391,21 @@
     <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/domain/OrderFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/order/OrderDeliveredPayload.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/process/order/OrderDeliveredHandler.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#49#319#0" expanded="true" />
           </folding>
@@ -1480,8 +1414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order-camunda/src/main/kotlin/com/freesoft/retail/order/infrastructure/EventListener.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#50#723#0" expanded="true" />
           </folding>
