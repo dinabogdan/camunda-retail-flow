@@ -20,9 +20,10 @@ class EventReceiver(private val camunda: ProcessEngine,
     @Transactional
     @StreamListener(target = Sink.INPUT, condition = "(headers['type']?:'')=='RetrievePaymentCommand'")
     fun receivePaymentCommand(objectJson: String) {
+        logger.info("ObjectJson: {}", objectJson)
         val event = ObjectMapper()
-                .readValue<Event<ReceivePaymentCommandPayload>>(objectJson,
-                        object : TypeReference<Event<ReceivePaymentCommandPayload>>() {})
+                .readValue<Event<RetrievePaymentCommandPayload>>(objectJson,
+                        object : TypeReference<Event<RetrievePaymentCommandPayload>>() {})
 
         val payload = event.payload
 
@@ -35,6 +36,5 @@ class EventReceiver(private val camunda: ProcessEngine,
                 .setVariable("refId", payload?.refId)
                 .setVariable("correlationId", event.correlationId)
                 .correlateWithResult()
-
     }
 }

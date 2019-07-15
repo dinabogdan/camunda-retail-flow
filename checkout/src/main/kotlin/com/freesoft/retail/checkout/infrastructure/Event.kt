@@ -15,6 +15,6 @@ data class Event<T>(val type: String,
             UUID.randomUUID().toString(),
             "Checkout",
             Date(),
-            null,
+            UUID.randomUUID().toString(),
             payload)
 }

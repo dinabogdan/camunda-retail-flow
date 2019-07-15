@@ -1,11 +1,12 @@
 package com.freesoft.retail.checkout.model
 
+import java.io.Serializable
 import java.math.BigDecimal
 import java.util.function.Predicate
 
 data class Order(val orderId: String,
                  val customer: Customer,
-                 val items: MutableList<Item>) {
+                 val items: MutableList<Item>) : Serializable {
 
 
     fun addItem(articleId: String, amount: BigDecimal) {

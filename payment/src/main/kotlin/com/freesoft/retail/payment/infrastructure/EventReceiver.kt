@@ -29,8 +29,8 @@ class EventReceiver(private val eventSender: EventSender) {
 
         eventSender.send(
                 Event(
-                        "PaymentReceivedEvent",
-                        event.traceId,
+                        "PaymentReceived",
+                        event.traceId!!,
                         PaymentReceivedPayload(commandPayload?.refId!!),
                         event.correlationId
                 )

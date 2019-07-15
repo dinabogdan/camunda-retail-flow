@@ -13,7 +13,7 @@ class InventoryService {
 
     fun pickItems(items: List<Item>, reason: String, refId: String): String {
         val pickOrder = PickOrder(items)
-        return pickOrder.pickId
+        return pickOrder.pickId!!
     }
 
 }

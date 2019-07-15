@@ -22,11 +22,11 @@ class EventReceiver(private val eventSender: EventSender,
 
         val payload = event.payload
 
-        val pickId = inventoryService.pickItems(payload?.items!!, payload.reason, payload.refId)
+        val pickId = inventoryService.pickItems(payload?.items!!, payload.reason!!, payload.refId!!)
 
         eventSender.send(
                 Event(
-                        "GoodsFetchedEvent",
+                        "GoodsFetched",
                         event.traceId!!,
                         GoodsFetchedPayload(
                                 payload.refId,

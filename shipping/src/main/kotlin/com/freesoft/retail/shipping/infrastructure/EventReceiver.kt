@@ -19,21 +19,22 @@ class EventReceiver(private val eventSender: EventSender,
 
     @Transactional
     @StreamListener(target = Sink.INPUT,
-            condition = "(headers['type']?:'')=='RetrievePaymentCommand'")
+            condition = "(headers['type']?:'')=='ShipGoodsCommand'")
     fun shipGoodsReceived(eventJson: String) {
-        val event = ObjectMapper().readValue<Event<RetrievePaymentCommandPayload>>(eventJson, object : TypeReference<Event<RetrievePaymentCommandPayload>>() {})
+        val event = ObjectMapper().readValue<Event<ShipGoodsCommandPayload>>(eventJson, object : TypeReference<Event<ShipGoodsCommandPayload>>() {})
         val payload = event.payload
 
-        logger.info("Retrieve payment: {} for: {}", payload?.amount, payload?.refId)
+        logger.info("Retrieve payment: {} for: {}", payload?.recipientAddress, payload?.refId)
+
+        val shippmentId = shippingService.createShipment(payload?.pickId, payload?.recipientName, payload?.recipientAddress, payload?.logisticsProvider)
 
         eventSender.send(
                 Event(
-                        "PaymentReceivedEvent",
-                        event.traceId,
-                        PaymentReceivedPayload(payload?.refId),
+                        "GoodsShipped",
+                        event.traceId!!,
+                        GoodsShippedEventPayload(payload?.refId, shippmentId),
                         event.correlationId
                 )
         )
     }
-
 }

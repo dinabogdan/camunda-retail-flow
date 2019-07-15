@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component
 class PaymentReceivedHandler(private val eventSender: EventSender) : JavaDelegate {
 
     override fun execute(context: DelegateExecution?) {
-        val refId = context?.getVariable("refId") as String
-        val correlationId = context.getVariable("correlationId") as String
-        val traceId = context.getVariable("traceId") as String
+        val refId = context?.getVariable("refId") as String?
+        val correlationId = context?.getVariable("correlationId") as String?
+        val traceId = context?.processBusinessKey
 
         eventSender.send(
                 Event(

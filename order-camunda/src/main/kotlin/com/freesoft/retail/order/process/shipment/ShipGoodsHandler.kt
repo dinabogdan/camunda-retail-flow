@@ -13,15 +13,15 @@ class ShipGoodsHandler(private val eventSender: EventSender,
                        private val orderFactory: OrderFactory) : JavaDelegate {
 
     override fun execute(context: DelegateExecution?) {
-        val orderId = context?.getVariable("orderId") as String
+        val orderId = context?.getVariable("orderId") as String?
         val order = orderFactory.findById(orderId).get()
-        val pickId = context.getVariable("pickId") as String
-        val traceId = context.processBusinessKey
+        val pickId = context?.getVariable("pickId") as String?
+        val traceId = context?.processBusinessKey
 
         eventSender.send(
                 Event(
                         "ShipGoodsCommand",
-                        traceId,
+                        traceId!!,
                         ShipGoodsCommandPayload(
                                 order.id,
                                 pickId,
